@@ -1,0 +1,67 @@
+.img-fluid{
+	width: 150px;
+	height: 80px;
+}
+
+
+#firstBanner{
+	width: 150px;
+	height: 80px;
+	position: relative; 
+}
+
+.col-sm{
+	padding: 5px 5px 5px 5px;
+}
+
+#sld1 img{
+	width: 350px;
+	height: 210px;
+	margin:1px 1px 1px 1px;
+	border:1px 1px 1px 1px;
+	transition: all 1s;
+	padding:10px 30px 10px 30px;
+	
+}
+
+#sld2 img{ padding: left; position: relative;}
+
+#sld1, #sld2 {display: flex; flex-wrap: wrap; justify-content: center;}
+
+#sld1 img:hover {transform: scale(1.1);}
+#emblems img:hover {transform: scale(1.1);}
+#mc_embed_signup_scroll img:hover{transform: scale(1.1);}
+#services img:hover{transform: scale(1.1);}
+
+/*MailChamp*/
+#mc_embed_signup{background-color:transparent; clear:left; font:14px Helvetica,Arial,sans-serif; }
+
+#subscribeButton{
+	font-family: cursive; font-size: 16px; font-weight: bold; color:white;
+	background: darkred;
+	border: none; border-radius: 10px;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition-duration: 0.4s; -webkit-transition-duration: 0.4s; /* Safari */
+}
+
+#subscribeButton:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.08),0 17px 50px 0 rgb(0,0,0);
+}
+
+.clear, #mc_embed_signup{
+	text-align: center;
+}
+
+.mail{
+	position: left;
+}
+
+.footer{
+	padding: 10px 0px 10px 0px;
+	font-family: cursive;
+	font-size: 15px;
+	color:white;
+	text-align:center;
+	background-image: url("images/blackCarbon.jpg");
+}
