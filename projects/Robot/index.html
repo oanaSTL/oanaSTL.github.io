@@ -1,14 +1,15 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta charset="UTF-8">
-	<title>PORTFOLIO</title>
+	<title>RoboPage</title>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="../../assets/css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
 </head>
 <body>
 
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
   <a class="navbar-brand" href="#"></a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -17,16 +18,16 @@
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item active">
-        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="../../index.html">Home <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           Projects
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="projects/Robot/index.html">MyPinkRobo</a>
-          <a class="dropdown-item" href="projects/SuperWrappz/index.html">SuperWrappz</a>
-          <a class="dropdown-item" href="projects/MyShoppingList/index.html">MyShoppingList</a>
+          <a class="dropdown-item" href="#">MyPinkRobo</a>
+          <a class="dropdown-item" href="../../projects/SuperWrappz/index.html">SuperWrappz</a>
+          <a class="dropdown-item" href="../../projects/MyShoppingList/index.html">MyShoppingList</a>
           <div class="dropdown-divider"></div>
           <a class="dropdown-item" href="#">COMING SOON !</a>
         </div>
@@ -49,26 +50,28 @@
   </div>
 </nav>
 
-<div>
-  <img class="center fit" src="assets/images/photo3.jpeg">
-</div>
+	<h1>My Pink Robo</h1>
+	<div class="robots">
+		<div class="android"> 
+			<div class="head"> 
+				<div class="eyes"> 
+					<div class="left_eye"></div> 
+					<div class="right_eye"></div>
+				</div> 
+			</div> 
+			<div class="upper_body"> 
+				<div class="left_arm"></div> 
+				<div class="torso"></div> 
+				<div class="right_arm"></div> 
+			</div> 
+			<div class="lower_body"> 
+				<div class="left_leg"></div> 
+				<div class="right_leg"></div> 
+			</div> 
+		</div>
+	</div>
 
-
-<script src="http://code.jquery.com/jquery-latest.js"></script>
-<script type="text/javascript" language="JavaScript">
-  function set_body_height() { // set body height = window height
-    $('body').height($(window).height());
-  }
-  $(document).ready(function() {
-    $(window).bind('resize', set_body_height);
-    set_body_height();
-  });
-</script>
-
-  
-
-
-  <footer>
+<footer>
   <div class="fixed-bottom footer">
     &copy;<script script type="text/javascript">document.write(new Date().getFullYear());</script>, STLoading..
   <div>
@@ -78,4 +81,5 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
+
 </html>

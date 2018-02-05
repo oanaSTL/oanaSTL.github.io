@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta charset="UTF-8">
-	<title>PORTFOLIO</title>
+	<title>Javascript + DOM</title>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="../../assets/css/style.css">
 </head>
 <body>
 
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
   <a class="navbar-brand" href="#"></a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -17,16 +17,16 @@
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item active">
-        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="../../index.html">Home <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           Projects
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="projects/Robot/index.html">MyPinkRobo</a>
-          <a class="dropdown-item" href="projects/SuperWrappz/index.html">SuperWrappz</a>
-          <a class="dropdown-item" href="projects/MyShoppingList/index.html">MyShoppingList</a>
+          <a class="dropdown-item" href="./../projects/Robot/index.html">MyPinkRobo</a>
+          <a class="dropdown-item" href="../../projects/SuperWrappz/index.html">SuperWrappz</a>
+          <a class="dropdown-item" href="#">MyShoppingList</a>
           <div class="dropdown-divider"></div>
           <a class="dropdown-item" href="#">COMING SOON !</a>
         </div>
@@ -49,26 +49,21 @@
   </div>
 </nav>
 
-<div>
-  <img class="center fit" src="assets/images/photo3.jpeg">
-</div>
+	<h1>Shopping List</h1>
+	<p id="first">Get it done today</p>
+	<input id="userinput" type="text" placeholder="enter items">
+	<button id="enter">Enter</button>
+	<ul>
+		<li class="bold red" random="23">Notebook</li>
+		<li>Jello</li>
+		<li>Spinach</li>
+		<li>Rice</li>
+		<li>Birthday Cake</li>
+		<li>Candles</li>
+	</ul>
+	<script type="text/javascript" src="script.js"></script>
 
-
-<script src="http://code.jquery.com/jquery-latest.js"></script>
-<script type="text/javascript" language="JavaScript">
-  function set_body_height() { // set body height = window height
-    $('body').height($(window).height());
-  }
-  $(document).ready(function() {
-    $(window).bind('resize', set_body_height);
-    set_body_height();
-  });
-</script>
-
-  
-
-
-  <footer>
+<footer>
   <div class="fixed-bottom footer">
     &copy;<script script type="text/javascript">document.write(new Date().getFullYear());</script>, STLoading..
   <div>
