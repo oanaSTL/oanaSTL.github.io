@@ -3,25 +3,22 @@
 	height: 80px;
 }
 
-
 #firstBanner{
 	width: 150px;
 	height: 80px;
 	position: relative; 
 }
 
-.col-sm{
-	padding: 5px 5px 5px 5px;
-}
 
 #sld1 img{
-	width: 350px;
-	height: 210px;
-	margin:1px 1px 1px 1px;
-	border:1px 1px 1px 1px;
+	width: 100%;
+	height: 80%;
+	margin-bottom:20px;
 	transition: all 1s;
-	padding:10px 30px 10px 30px;
-	
+}
+
+.jumbotron{
+	background: white;
 }
 
 #sld2 img{ padding: left; position: relative;}
