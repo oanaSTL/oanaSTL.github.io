@@ -21,6 +21,9 @@
 	background: white;
 }
 
+.dispIBM { display: inline-block; vertical-align: middle; align-self: auto;}
+#emblems img {display: block; max-width: 150px;}
+
 #sld2 img{ padding: left; position: relative;}
 
 #sld1, #sld2 {display: flex; flex-wrap: wrap; justify-content: center;}
