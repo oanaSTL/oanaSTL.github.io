@@ -21,10 +21,10 @@
 	background: white;
 }
 
-.dispIBM { display: inline-block; vertical-align: middle; align-self: auto;}
+.dispIBM { display: inline-block; vertical-align: middle;}
 #emblems img {display: block; max-width: 150px;}
 .emblem_item { padding: 10px;width: 150px;}
-.emblem_item img { display: block; margin: 0 auto;}
+.emblem_item img { display: block; margin: 0 auto; max-width: 100%;}
 
 #sld2 img{ padding: left; position: relative;}
 
