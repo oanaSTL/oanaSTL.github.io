@@ -56,9 +56,10 @@ function toggleDeleteShowClass() {
 function createDeleteButton(li) {
 	// add delete button
 	var btn = document.createElement("button");
-	btn.appendChild(document.createTextNode("Del"));
+	btn.appendChild(document.createTextNode("X"));
 	btn.setAttribute("class", "deleteButton showButton");
 	li.appendChild(btn);
+
 }
 
 enterButton.addEventListener("click", addListAfterClick);
@@ -69,10 +70,11 @@ ul.addEventListener("click", rowClicked);
 
 // create the delete button for all list items and add the event listeners
 lis.forEach(function(li){
-	createDeleteButton(li);
+	var btn = createDeleteButton(li);
 	li.addEventListener("mouseenter", toggleDeleteShowClass); 
 	li.addEventListener("mouseleave", toggleDeleteShowClass); 
 });
+
 
 
 

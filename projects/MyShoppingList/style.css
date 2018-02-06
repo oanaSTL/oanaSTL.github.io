@@ -33,3 +33,29 @@ ul, #userinput{
   margin-left: 40%;
   margin-right: 20%
 }
+
+.deleteButton {
+  border: solid 1px black;
+  background: red;
+  border-radius: 15%;
+  margin-left: 10px;
+  height: 25px;
+  width: 25px;
+}
+
+#userinput{
+  height: 28px;
+  width: 250px;
+  border: solid 2px deeppink;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  }
+
+ #enter{
+  height: 28px;
+  width: 60px;
+  border: solid 2px deeppink;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  border-radius: 30% 30%;
+  } 
