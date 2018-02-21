@@ -2,7 +2,7 @@ const enterButton = document.getElementById("enter");
 const input = document.getElementById("userinput");
 const ul = document.getElementById("list");
 const spans = document.querySelectorAll("span");
-const lis= document.querySelectorAll(lis);
+var lis= document.querySelectorAll(lis);
 
 
 function inputLength() {
