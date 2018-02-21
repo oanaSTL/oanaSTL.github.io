@@ -1,8 +1,8 @@
-var enterButton = document.getElementById("enter");
-var input = document.getElementById("userinput");
-var ul = document.getElementById("list");
-var spans = document.querySelectorAll("span");
-var lis= document.querySelectorAll(lis);
+const enterButton = document.getElementById("enter");
+const input = document.getElementById("userinput");
+const ul = document.getElementById("list");
+const spans = document.querySelectorAll("span");
+const lis= document.querySelectorAll(lis);
 
 
 function inputLength() {
@@ -10,7 +10,7 @@ function inputLength() {
 }
 
 function createListElement() {
-	var li = document.createElement("li");
+	const li = document.createElement("li");
 	li.appendChild(document.createTextNode(input.value));
 	// add the delete button 
 	createDeleteButton(li);
@@ -56,7 +56,7 @@ function toggleDeleteShowClass() {
 
 function createDeleteButton(li) {
 	// add del button
-	var btn = document.createElement("button");
+	const btn = document.createElement("button");
 	btn.appendChild(document.createTextNode("X"));
 	btn.setAttribute("class", "deleteButton showButton");
 	li.appendChild(btn);
@@ -71,7 +71,7 @@ ul.addEventListener("click", rowClicked);
 
 // create delete button for all items
 lis.forEach(function(li){
-	var btn = createDeleteButton(li);
+	const btn = createDeleteButton(li);
 	li.addEventListener("mouseenter", toggleDeleteShowClass); 
 	li.addEventListener("mouseleave", toggleDeleteShowClass); 
 });
